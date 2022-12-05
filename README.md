@@ -1,3 +1,10 @@
+# Steps:
+
+1. Init project
+2. Install library tambahan
+   - formik
+   - yup
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
