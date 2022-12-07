@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import { Container, Button, Modal, CloseButton, Form } from "react-bootstrap";
 import "./login.css";
-import { BsEyeFill, BsEyeSlashFill } from "react-icons/bs";
 
 function Login() {
   const [show, setShow] = useState(false);
@@ -109,6 +108,7 @@ function Login() {
                 id="username"
                 name="username"
                 type="text"
+                autoComplete="username"
                 placeholder="Type your username"
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -127,8 +127,9 @@ function Login() {
               </div>
               <input
                 className="login-input"
-                id="password hide-password"
+                id="password"
                 name="password"
+                autoComplete="current-password"
                 placeholder="Type your password"
                 type={showPassword ? "text" : "password"}
                 onChange={formik.handleChange}
@@ -138,7 +139,7 @@ function Login() {
               {formik.touched.password && formik.errors.password ? (
                 <div className="no-input">{formik.errors.password}</div>
               ) : null}
-              <Form>
+              <>
                 {["Show Password"].map((type) => (
                   <div key={`${type}`} className="mt-10">
                     <Form.Check
@@ -149,8 +150,7 @@ function Login() {
                     />
                   </div>
                 ))}
-              </Form>
-              <br />
+              </>
               <button type="submit" className="btn btn-light signin-btn">
                 Log In
               </button>

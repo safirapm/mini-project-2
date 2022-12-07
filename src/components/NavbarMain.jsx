@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap/";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Logout from "./Logout";
 
 const NavbarMain = () => {
   return (
@@ -27,10 +28,8 @@ const NavbarMain = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link eventKey={2} href="#memes">
-                <button type="button" class="btn btn-outline-light">
-                  Log Out
-                </button>
+              <Nav.Link>
+                <Logout />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
