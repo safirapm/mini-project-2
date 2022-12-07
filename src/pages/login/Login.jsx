@@ -43,8 +43,8 @@ function Login() {
             .post(
               `${process.env.REACT_APP_BASEURL}authentication/token/validate_with_login?api_key=${process.env.REACT_APP_APIKEY}`,
               {
-                username: values.username, // safirapmx
-                password: values.password, // #SpmDibimbing10
+                username: values.username,
+                password: values.password,
                 request_token: requestToken,
               }
             )
