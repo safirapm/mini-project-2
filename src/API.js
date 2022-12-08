@@ -19,10 +19,3 @@ export const getUpcoming = async () => {
   );
   return upcoming.data.results;
 };
-
-export const generateSession = async () => {
-  const genSession = await axios.get(
-    `${baseURL}authentication/session/new?api_key=${apiKey}`
-  );
-  return genSession.data.results;
-};

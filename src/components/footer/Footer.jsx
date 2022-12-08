@@ -10,7 +10,7 @@ const Footer = () => {
           <li>Investor Relations</li>
           <li>Ways to Watch</li>
           <li>Corporate Information</li>
-          <li>Aniflix Originals</li>
+          <li>TMDB Originals</li>
           <li>Help Center</li>
           <li>Jobs</li>
           <li>Terms of Use</li>

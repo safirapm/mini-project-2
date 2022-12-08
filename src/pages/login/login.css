@@ -32,10 +32,12 @@ body {
 .click-btn {
     background-color: rgba(8,180,226,255);
     border: .5px solid rgba(8,180,226,255);
+    border-radius: 20px;
+    width: 200px;
 }
 
 .btn-secondary {
-    --bs-btn-hover-bg: rgba(74, 188, 194, 0.538);
+    --bs-btn-hover-bg: rgb(74, 188, 194);
     --bs-btn-active-bg: none;
     --bs-btn-active-border-color: 1px solid #fff;
 }
@@ -58,6 +60,10 @@ body {
     backdrop-filter: blur(3px);  
 }
 
+.modal-header {
+    padding: 0px;
+    border-bottom: none;
+}
 .modal-content {
     transform:translateY(30%);
     right: 10%;

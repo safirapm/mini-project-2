@@ -93,6 +93,7 @@ function Login() {
         {/* Modal */}
         <Modal show={show} onHide={handleClose}>
           <Container fluid className="login-format">
+            <Modal.Header closeButton closeVariant="white"></Modal.Header>
             <div className="signin-title">Sign In</div>
             <br />
             <form onSubmit={formik.handleSubmit}>
