@@ -2,9 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* background-image:linear-gradient(rgba(4, 36, 67, 0.707), rgba(17, 118, 158, 0.354)), url(https://r4.wallpaperflare.com/wallpaper/436/228/997/movies-mad-max-the-dark-knight-interstellar-movie-wallpaper-48066d386030acc8d06c814ea8c2f4fa.jpg?timestamp=1670376806881);
-    background-attachment: fixed;
-    background-size:cover; */
 }
 
 .background {
@@ -63,6 +60,7 @@ body {
 
 .modal-content {
     transform:translateY(30%);
+    right: 10%;
 
     width:400px !important;
     position:absolute;

@@ -27,6 +27,7 @@ function Logout() {
         <button
           type="button"
           className="btn btn-outline-light"
+          style={{ borderRadius: "25px" }}
           onClick={handleLogout}
         >
           Logout

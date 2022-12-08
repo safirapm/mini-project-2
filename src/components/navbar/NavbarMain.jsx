@@ -1,18 +1,27 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap/";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logout from "./Logout";
+import Logout from "../Logout";
+import "./navbarmain.css";
 
 const NavbarMain = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar
+        className="navbar"
+        fixed="top"
+        collapseOnSelect
+        expand="lg"
+        variant="dark"
+      >
         <Container>
-          <Navbar.Brand href="/home">TheMovieDB</Navbar.Brand>
+          <Navbar.Brand href="/home" style={{ fontWeight: "bold" }}>
+            TheMovieDB
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="/upcoming">Upcoming</Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

@@ -1,0 +1,15 @@
+.upcoming-header {
+    min-height: 60vh;
+    width: 100%;
+    /* background-attachment:fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item img {
+    max-width: 1280px !important;
+    height: 720px !important;
+    object-position: 50% 50% !important;
+    object-fit:cover !important;
+}

@@ -1,3 +1,37 @@
 .home-background {
-    background-color: #fff !important;
+    max-width: 100%;
+    background-color: rgb(4,36,67);
 }
+
+.container {
+    --bs-gutter-x:0;
+}
+
+.header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(74, 188, 194, 0.353), rgb(4,36,67)), url(https://image.tmdb.org/t/p/original/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg);
+    /* background-attachment:fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-box{
+    width: 90%;
+    color:#fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.popular-title {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-align:center;
+    color: #fff;
+}
+

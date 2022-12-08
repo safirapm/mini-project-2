@@ -1,0 +1,25 @@
+.footer {
+    max-width: 100%;
+    text-align:left;
+    padding: 20px 20px;
+    background-color:rgb(1, 16, 31);
+    color:rgb(74,188,194);
+}
+
+.footer p {
+    padding-left: 30px;
+}
+.footer-socmed {
+    margin-right: 10px;
+}
+
+.footer ul {
+    list-style-type:none;
+    column-rule: dotted 1px #333;
+    -moz-column-count: 5;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}

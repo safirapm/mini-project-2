@@ -1,0 +1,271 @@
+.main-movie-container {
+    --bs-gutter-x: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.movie-container {
+    display:flex;
+    color: white;
+    align-items: center;
+    width: 650px;
+    margin-bottom: 20px;
+
+
+    background: #191919b1 !important;
+    -webkit-backdrop-filter: blur(5px);  
+    backdrop-filter: blur(5px);
+    box-shadow: 1.3rem 1rem 1rem rgb(62, 62, 62, 0.3);
+    border-top-color: rgba(225, 225, 225, 0.718);
+    border-left-color: rgba(225, 225, 225, 0.75);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    border-radius: 8px;
+}
+
+.info-title {
+    float:left;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.info-title p {
+    font-size: 13px;
+}
+
+.image-container {
+    float: right;
+    border-radius:8px;     
+}
+
+.image-container img {
+    object-position:right;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius:8px;        
+}
+
+.play-btn {
+    width: 120px;
+    height: 35px;
+    border-radius:20px;
+    font-weight: 600;
+    font-size: 15px;
+
+    background: rgba(8,180,226,255);
+    color: #fff;
+    border: none;
+}
+
+.play-btn:hover {
+    background: rgb(74,188,194);
+    color: rgb(4,36,67);
+    border:none;
+}
+
+@media screen and (max-width: 1200px) {
+    .movie-container {
+        display:flex;
+        color: white;
+        align-items: center;
+        width: 450px;
+        margin-bottom: 20px;
+    
+    
+        background: #191919b1 !important;
+        -webkit-backdrop-filter: blur(5px);  
+        backdrop-filter: blur(5px);
+        box-shadow: 1.3rem 1rem 1rem rgb(62, 62, 62, 0.3);
+        border-top-color: rgba(225, 225, 225, 0.718);
+        border-left-color: rgba(225, 225, 225, 0.75);
+        border-bottom-color: rgba(225, 225, 225, 0.1);
+        border-right-color: rgba(225, 225, 225, 0.1);
+        border-radius: 8px;
+    }
+    
+    .info-title {
+        float:left;
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .info-title h4 {
+        font-size: 15px;
+    }
+    
+    
+    .info-title p {
+        font-size: 10px;
+    }
+    
+    .image-container {
+        float: right;
+        border-radius:8px;     
+    }
+    
+    .image-container img {
+        object-position:right;
+        max-width: 200px;
+        object-fit: cover;
+        border-radius:8px;        
+    }
+    
+    .play-btn {
+        width: 100px;
+        height: 30px;
+        border-radius:20px;
+        font-weight: 600;
+        font-size: 11px;
+    
+        background: rgba(8,180,226,255);
+        color: #fff;
+        border: none;
+    }
+    
+    .play-btn:hover {
+        background: rgb(74,188,194);
+        color: rgb(4,36,67);
+        border:none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main-movie-container {
+        justify-content: center;
+        display: flex;
+    }
+    .movie-container {
+        display:flex;
+        color: white;
+        align-items: center;
+        width: 450px;
+        margin-bottom: 20px;
+    
+    
+        background: #191919b1 !important;
+        -webkit-backdrop-filter: blur(5px);  
+        backdrop-filter: blur(5px);
+        box-shadow: 1.3rem 1rem 1rem rgb(62, 62, 62, 0.3);
+        border-top-color: rgba(225, 225, 225, 0.718);
+        border-left-color: rgba(225, 225, 225, 0.75);
+        border-bottom-color: rgba(225, 225, 225, 0.1);
+        border-right-color: rgba(225, 225, 225, 0.1);
+        border-radius: 8px;
+    }
+    
+    .info-title {
+        float:left;
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .info-title h4 {
+        font-size: 15px;
+    }
+    
+    
+    .info-title p {
+        font-size: 10px;
+    }
+    
+    .image-container {
+        float: right;
+        border-radius:8px;     
+    }
+    
+    .image-container img {
+        object-position:right;
+        max-width: 200px;
+        object-fit: cover;
+        border-radius:8px;        
+    }
+    
+    .play-btn {
+        width: 100px;
+        height: 30px;
+        border-radius:20px;
+        font-weight: 600;
+        font-size: 11px;
+    
+        background: rgba(8,180,226,255);
+        color: #fff;
+        border: none;
+    }
+    
+    .play-btn:hover {
+        background: rgb(74,188,194);
+        color: rgb(4,36,67);
+        border:none;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 430px) {
+    .main-movie-container {
+        justify-content: center;
+        display: flex;
+    }
+    .movie-container {
+        display:flex;
+        color: white;
+        align-items: center;
+        width: 320px;
+        margin-bottom: 20px;
+    
+    
+        background: #191919b1 !important;
+        -webkit-backdrop-filter: blur(5px);  
+        backdrop-filter: blur(5px);
+        box-shadow: 1.3rem 1rem 1rem rgb(62, 62, 62, 0.3);
+        border-top-color: rgba(225, 225, 225, 0.718);
+        border-left-color: rgba(225, 225, 225, 0.75);
+        border-bottom-color: rgba(225, 225, 225, 0.1);
+        border-right-color: rgba(225, 225, 225, 0.1);
+        border-radius: 8px;
+    }
+    
+    .info-title {
+        float:left;
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .info-title h4 {
+        font-size: 10px;
+    }
+    
+    .info-title p {
+        font-size: 7px;
+        margin-bottom: 1px;
+    }
+    
+    .image-container {
+        float: right;
+        border-radius:8px;     
+    }
+    
+    .image-container img {
+        object-position:right;
+        max-width: 100px;
+        object-fit: cover;
+        border-radius:8px;        
+    }
+    
+    .play-btn {
+        width: 70px;
+        height: 20px;
+        border-radius:20px;
+        font-weight: 600;
+        font-size: 7px;
+    
+        background: rgba(8,180,226,255);
+        color: #fff;
+        border: none;
+    }
+    
+    .play-btn:hover {
+        background: rgb(74,188,194);
+        color: rgb(4,36,67);
+        border:none;
+    }
+}

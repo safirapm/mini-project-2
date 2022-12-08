@@ -8,18 +8,16 @@ export const getMovies = async () => {
   return movies.data.results;
 };
 
-export const generateReq = async () => {
-  const reqToken = await axios.get(
-    `${baseURL}authentication/token/new?api_key=${apiKey}`
-  );
-  return reqToken.data.results;
+export const getSeries = async () => {
+  const series = await axios.get(`${baseURL}tv/popular?api_key=${apiKey}`);
+  return series.data.results;
 };
 
-export const validateReq = async () => {
-  const validToken = await axios.get(
-    `${baseURL}authentication/token/validate_with_login?api_key=${apiKey}`
+export const getUpcoming = async () => {
+  const upcoming = await axios.get(
+    `${baseURL}movie/upcoming?api_key=${apiKey}`
   );
-  return validToken.data.results;
+  return upcoming.data.results;
 };
 
 export const generateSession = async () => {
