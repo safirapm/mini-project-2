@@ -1,9 +1,12 @@
 # Steps:
 
 1. Init project
-2. Install library tambahan
+2. Install adds-on library
    - formik
    - yup
+   - axios
+   - react-bootstrap
+   - react-router-dom
 
 # Getting Started with Create React App
 

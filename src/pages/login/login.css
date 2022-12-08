@@ -162,3 +162,7 @@ body {
     --bs-btn-active-bg: rgba(8,180,226,255);
     --bs-btn-active-color: #fff;
 }
+
+@media screen and (max-width: 476px) {
+
+}

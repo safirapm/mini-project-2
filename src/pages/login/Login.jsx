@@ -3,7 +3,7 @@ import axios from "axios";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
-import { Container, Button, Modal, CloseButton, Form } from "react-bootstrap";
+import { Container, Button, Modal, Form } from "react-bootstrap";
 import "./login.css";
 
 function Login() {
@@ -61,8 +61,13 @@ function Login() {
                   const sessionID = res.data.session_id;
                   console.log(sessionID);
                   localStorage.setItem("session", sessionID);
+                  localStorage.setItem("username", values.username);
                   navigate("/home");
                 });
+            })
+            .catch((err) => {
+              const showError = err.response.data.status_message;
+              alert(showError);
             });
         });
     },

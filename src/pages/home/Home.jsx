@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-// import { getMovies } from "../../API";
 import "./home.css";
 import { Row, Container } from "react-bootstrap";
 import MovieCard from "../../components/moviecard/MovieCard";
@@ -15,9 +13,9 @@ const Home = () => {
         <div className="header">
           <div className="text-box">
             <h1 style={{ fontWeight: 600, marginBottom: "1px" }}>
-              Welcome to TMDB,
+              Welcome, <span>{localStorage.getItem("username")}.</span>
             </h1>
-            <h3>your source of happiness.</h3>
+            <h3>We have your favorite food here.</h3>
           </div>
         </div>
         <h2 className="popular-title">Popular Movies</h2>
