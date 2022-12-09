@@ -44,6 +44,7 @@ const Upcoming = () => {
                       <div className="image-container">
                         <img
                           src={`${process.env.REACT_APP_BASEIMGURL}${upcoming.poster_path}`}
+                          alt={upcoming.title}
                         />
                       </div>
                     </div>
