@@ -7,3 +7,7 @@
    - axios
    - react-bootstrap
    - react-router-dom
+
+# Link to Netlify
+
+https://safirapmx-react-tmdb.netlify.app/
