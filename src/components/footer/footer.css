@@ -9,11 +9,8 @@
 .footer p {
     padding-left: 30px;
 }
-.footer-socmed {
-    margin-right: 10px;
-}
 
-.footer ul {
+.footer-ul {
     list-style-type:none;
     column-rule: dotted 1px #333;
     -moz-column-count: 5;
@@ -22,4 +19,33 @@
     -webkit-column-gap: 20px;
     column-count: 4;
     column-gap: 20px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:476px) {
+    .footer {
+        max-width: 100%;
+        text-align:left;
+        padding:15px 10px;
+        background-color:rgb(1, 16, 31);
+        color:rgb(74,188,194);
+    }
+    
+    .footer p {
+        padding-left: 30px;
+        font-size: 8px;
+    }
+
+    .footer-ul{
+        list-style-type:none;
+        column-rule: dotted 1px #333;
+        -moz-column-count: 5;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 5;
+        -webkit-column-gap: 20px;
+        column-count: 4;
+        column-gap: 9px;
+        font-size: 9px;
+    } 
+
 }
