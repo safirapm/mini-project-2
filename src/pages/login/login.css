@@ -13,8 +13,8 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size:cover;
-
 }
+
 /* Welcome and Sign In */
 .before-modal {
     text-align: center;
@@ -64,6 +64,7 @@ body {
     padding: 0px;
     border-bottom: none;
 }
+
 .modal-content {
     transform:translateY(30%);
     right: 10%;

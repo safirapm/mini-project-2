@@ -23,7 +23,7 @@ function Login() {
     },
     validationSchema: Yup.object({
       username: Yup.string()
-        .min(8, "Minimum 8 characters")
+        .min(4, "Minimum 4 characters")
         .required("Required"),
       password: Yup.string()
         .min(8, "Minimum 8 characters")

@@ -40,3 +40,8 @@ function Logout() {
 }
 
 export default Logout;
+
+/* Note:
+Possible to use { Navigate } from react-router-dom but 
+the API key from Popular Movies list
+still exists when logged out. */

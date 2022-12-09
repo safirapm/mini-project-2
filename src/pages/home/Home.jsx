@@ -15,7 +15,7 @@ const Home = () => {
             <h1 style={{ fontWeight: 600, marginBottom: "1px" }}>
               Welcome, <span>{localStorage.getItem("username")}.</span>
             </h1>
-            <h3>We have your favorite food here.</h3>
+            <h3>Let's take on an adventure, shall we?</h3>
           </div>
         </div>
         <h2 className="popular-title">Popular Movies</h2>
