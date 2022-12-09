@@ -32,6 +32,7 @@ function MovieCard() {
               <div className="image-container">
                 <img
                   src={`${process.env.REACT_APP_BASEIMGURL}${movie.poster_path}`}
+                  alt={movie.title}
                 />
               </div>
             </div>

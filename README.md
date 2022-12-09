@@ -1,7 +1,7 @@
 # Steps:
 
 1. Init project
-2. Add-on library
+2. Add-ons library
    - formik
    - yup
    - axios

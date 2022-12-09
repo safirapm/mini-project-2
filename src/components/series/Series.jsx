@@ -31,6 +31,7 @@ function SeriesCard() {
               <div className="image-container">
                 <img
                   src={`${process.env.REACT_APP_BASEIMGURL}${series.poster_path}`}
+                  alt={series.title}
                 />
               </div>
             </div>

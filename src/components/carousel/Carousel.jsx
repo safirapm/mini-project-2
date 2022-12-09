@@ -1,16 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Carousel } from "react-bootstrap";
-import { getUpcoming } from "../../API";
 
 function UpcomingHeader() {
-  const [comingSoon, setUpcoming] = useState([]);
-
-  useEffect(() => {
-    getUpcoming().then((result) => {
-      setUpcoming(result);
-    });
-  }, []);
-
   return (
     <>
       <Carousel fade>
