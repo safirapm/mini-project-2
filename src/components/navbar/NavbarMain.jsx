@@ -13,7 +13,7 @@ const NavbarMain = () => {
         expand="lg"
         variant="dark"
       >
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="/home" style={{ fontWeight: "bold" }}>
             TheMovieDB
           </Navbar.Brand>

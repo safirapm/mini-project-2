@@ -166,6 +166,9 @@ body {
 /* Phone I */ 
 @media screen and (max-width: 476px) {
 /* Sign In Modal */
+.row {
+    max-width:500;
+}
 .modal-content {
     transform:translateY(50%);  
     left: 13%;  
