@@ -57,7 +57,6 @@ body {
 /* Sign In Modal */
 .modal {
     --bs-modal-bg: none !important;
-    backdrop-filter: blur(3px);  
 }
 
 .modal-header {
@@ -164,6 +163,79 @@ body {
     --bs-btn-active-color: #fff;
 }
 
+/* Phone I */ 
 @media screen and (max-width: 476px) {
+/* Sign In Modal */
+.modal-content {
+    transform:translateY(50%);  
+    left: 13%;  
+    width:300px !important;
+}
 
+.login-format {
+    padding: 28px 22px;
+    color: white;
+    align-items: center;
+    width: 300px;
+}
+
+/* Sign In Modal -- Inside */
+/* Title */
+.signin-title {
+    font-size: 20px;
+}
+
+/* Username and Password */
+.mobile-login{
+    font-size: 14px;
+}
+
+.mt-10 {
+    margin-top: 5px;
+}
+
+.login-input {
+    padding: 14px 10px;
+    width: 250px;
+    height: 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.no-input {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom:2px;
+}
+
+.show-password{
+    font-size: 13px;
+}
+
+/* Sign In Button */
+.signin-btn {
+    padding: 5px 5px;
+    width: 250px;
+    height: 30px;
+    font-size:14px;
+}
+
+.signin-btn:hover {
+    background: rgb(74,188,194);
+    color: rgb(4,36,67);
+    border:none;
+}
+
+.btn-light{
+    --bs-btn-active-bg: rgba(8,180,226,255);
+    --bs-btn-active-color: #fff;
+}
+}
+
+/* Phone II */ 
+@media screen and (max-width: 375px) {
+    /* Sign In Modal */
+    .modal-content {
+        left: 7%;  
+    }
 }

@@ -103,7 +103,7 @@ function Login() {
             <br />
             <form onSubmit={formik.handleSubmit}>
               <div
-                className="mb-8"
+                className="mb-8 mobile-login"
                 htmlFor="username"
                 style={{ fontWeight: "500" }}
               >
@@ -123,9 +123,8 @@ function Login() {
               {formik.touched.username && formik.errors.username ? (
                 <div className="no-input">{formik.errors.username}</div>
               ) : null}
-              <br />
               <div
-                className="mt-10 mb-8"
+                className="mt-10 mb-8 mobile-login"
                 htmlFor="password"
                 style={{ fontWeight: "500" }}
               >
@@ -147,7 +146,7 @@ function Login() {
               ) : null}
               <>
                 {["Show Password"].map((type) => (
-                  <div key={`${type}`} className="mt-10">
+                  <div key={`${type}`} className="mt-10 show-password">
                     <Form.Check
                       type="checkbox"
                       id={`${type}`}
