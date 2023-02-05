@@ -79,7 +79,7 @@ function Login() {
         <div className="before-modal">
           <div className="welcome">
             <h1>
-              Welcome to <span style={{ fontWeight: "bold" }}>TheMovieDB</span>
+              Welcome to <span style={{ fontWeight: "bold" }}>Flickies</span>
             </h1>
             <h3>Your Favorite Home-Cinema.</h3>
           </div>

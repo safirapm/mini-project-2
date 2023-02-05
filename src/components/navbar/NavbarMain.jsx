@@ -15,7 +15,7 @@ const NavbarMain = () => {
       >
         <Container fluid>
           <Navbar.Brand href="/home" style={{ fontWeight: "bold" }}>
-            TheMovieDB
+            Flickies
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
