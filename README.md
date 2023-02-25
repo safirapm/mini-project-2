@@ -8,6 +8,6 @@
    - react-bootstrap
    - react-router-dom
 
-# Link to Netlify
+# Deployment (Netlify)
 
-https://safirapmx-react-tmdb.netlify.app/
+https://flickies.netlify.app/
